@@ -1,0 +1,6 @@
+{
+  "apiBase": "//api.yitong.com",
+  "cdn": "//public.yitong.com",
+  "appKey": "bac8dd6d91404dc08032d8540c867a29",
+  "parseApplicationId": "YitongParse"
+}

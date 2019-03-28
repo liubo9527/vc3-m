@@ -1,0 +1,60 @@
+
+$b:(750/1080)*0.01rem;
+/* color */
+$c-red1:#ff5d5d;
+$c-red2:#ba000d;
+$c-red3:#fa4436;
+$c-pink1:#eccccc;
+$c-pink2:#f4dede;
+$c-pink3:#fff6f6;
+$c-blue2:#576298;
+$c-yellow1:#f39800;
+$c-yellow2:#d7700b;
+$c-black1:#333;
+$c-black2:#9a9a9a;
+$c-black3:#e5e5e5;
+$c-black4:#ebebeb;
+$c-black5:#f0f0f0;
+$c-black6:#fcfcfc;
+$c-black7:#f5eded;
+$c-black8:#fff;
+/* font-size */
+.f-fs12 { font-size:12px; }
+.f-fs14 { font-size:14px; }
+.f-fs15 { font-size:15px; }
+.f-fs16 { font-size:16px; }
+.f-fs18 { font-size:18px; }
+.f-fs20 { font-size:20px; }
+@media screen and(max-width:374px){
+    .f-fs12 { font-size:10px; }
+    .f-fs14 { font-size:12px; }
+    .f-fs15 { font-size:13px; }
+    .f-fs16 { font-size:14px; }
+    .f-fs18 { font-size:16px; }
+    .f-fs20 { font-size:18px; }
+}
+
+.f-ios-scrolling { -webkit-overflow-scrolling: touch; }
+
+$fs1:12px;
+$fs2:13px;
+$fs3:14px;
+$fs4:15px;
+$fs5:16px;
+$fs6:17px;
+$fs7:18px;
+/* color */
+$white:#fff;
+$red:#ff5d5d;
+$c1:#333;
+$c2:#9a9a9a;
+$c3:#559ada;
+$c4:#f5861a;
+/* border-color */
+$bc1:#f1f1f1;
+/* background-color */
+$bgc1:#f0f0f0;
+$bgc2:#f8f8f8;
+$bgc3:#eee;
+$bgc4:#fbfbfb;
+$bgc5:#fff4f4;

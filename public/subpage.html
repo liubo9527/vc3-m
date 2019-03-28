@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="<%= BASE_URL %>css/normalize.css" rel="stylesheet" type="text/css">
+    <script src="//public.yitong.com/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <script src="//public.yitong.com/libs/vue/2.3.3/vue.min.js"></script>
+    <script src="//public.yitong.com/libs/vue-router/2.3.1/vue-router.min.js"></script>
+    <script src="//public.yitong.com/libs/axios/0.16.2/axios.min.js"></script>
+    <script src="//public.yitong.com/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="//public.yitong.com/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="//public.yitong.com/libs/device.js/0.2.7/device.min.js"></script>
+    <script>
+      var props = JSON.parse('<%= JSON.stringify(htmlWebpackPlugin.options.props) %>')
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but cli-for-pc doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
